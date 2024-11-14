@@ -1,0 +1,35 @@
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  ],
+"layer": "top",
+"position": "top",
+"height": 14,
+"margin-left": 10,
+"margin-right": 10,
+"margin-top": 2,
+	
+"modules-left": [
+	"hyprland/workspaces#rw",
+	"custom/separator#blank_2",
+],
+
+"modules-center": [
+	"clock#3",
+	"custom/separator#blank"
+],
+		
+"modules-right": [
+	"hyprland/window",
+	"custom/separator#blank",
+  "custom/swaync",
+	"custom/separator#blank", 
+	"pulseaudio",
+  "custom/separator#blank",
+  "battery",
+  "backlight#2",  						
+	],
+}

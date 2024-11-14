@@ -1,0 +1,56 @@
+
+@import ".cache/wal/colors-waybar.css";
+
+
+
+window {
+  background-color: @background;
+  opacity: 0.80;
+    font-size: 12px;
+}
+
+* {
+  font-family: "JetBrains Mono Nerd Font Mono";
+  color: @color12;
+}
+
+#scroll {
+  padding: 0.5rem;
+  opacity: 0.90;
+}
+
+#input {
+  background-color: @background;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  font-size: 1rem;
+  padding: 0.5rem;
+    opacity: 0.90;
+}
+
+#inner-box {
+  margin: 0.5rem;
+  font-size: 1rem;
+  opacity: 0.90;
+}
+
+#img {
+  margin: 10px 10px;
+  opacity: 0.90;
+}
+
+#entry {
+  border-radius: 0.5rem;
+  opacity: 0.90;
+}
+
+#entry:selected {
+  background-color: @background;
+  outline: none;
+    opacity: 0.90;
+}
+
+
+

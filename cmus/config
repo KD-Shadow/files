@@ -1,0 +1,1 @@
+echo "colorscheme dracula" >> ~/.config/cmus/rc
